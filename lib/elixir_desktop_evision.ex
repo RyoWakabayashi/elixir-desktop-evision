@@ -14,6 +14,7 @@ defmodule ElixirDesktopEvision do
     children = [
       {Phoenix.PubSub, name: ElixirDesktopEvision.PubSub},
       {Finch, name: ElixirDesktopEvision.Finch},
+      ElixirDesktopEvision.Store,
       ElixirDesktopEvisionWeb.Endpoint
     ]
 

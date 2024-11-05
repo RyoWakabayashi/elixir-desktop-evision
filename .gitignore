@@ -37,3 +37,8 @@ npm-debug.log
 
 # macOS Finder custom folder settings
 .DS_Store
+
+# models
+labels.txt
+*.cfg
+*.weights
